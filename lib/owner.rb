@@ -57,5 +57,23 @@ class Owner
     Dog.new(name, self)
   end
 
+  def walk_dogs
+    dogs.each do |dog|
+      dog.mood = "happy"
+    end
+  end
+
+  def feed_cats
+
+  end
+
+  def sell_pets
+
+  end
+
+  def list_pets
+
+  end
+
 
 end
