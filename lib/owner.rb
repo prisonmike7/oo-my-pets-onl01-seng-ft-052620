@@ -6,6 +6,7 @@ class Owner
   def initialize(name)
     @name = name
     @species = "human"
+    @@all << self
   end
 
   def species
@@ -14,6 +15,20 @@ class Owner
 
   def say_species
     puts "I am a #{human}"
+  end
+
+  def self.all
+    @@all
+  end
+
+  def count
+    @@all.size
+  end
+
+  def count
+    @@all.clear
+  end
+
   end
 
 end
