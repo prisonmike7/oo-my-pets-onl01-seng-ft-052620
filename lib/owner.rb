@@ -25,7 +25,7 @@ class Owner
     @@all.size
   end
 
-  def count
+  def self.count
     @@all.clear
   end
 
