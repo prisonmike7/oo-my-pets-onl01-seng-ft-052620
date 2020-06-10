@@ -21,11 +21,11 @@ class Owner
     @@all
   end
 
-  def self.reset_all
+  def self.count
     @@all.count
   end
 
-  def self.clear
+  def self.reset_all
     @@all.clear
   end
 
