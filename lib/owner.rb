@@ -41,9 +41,9 @@ class Owner
 
   def dogs
     dog_array = []
-    Dog.all.each do |cat|
-      if cat.owner == self
-        dog_array << cat
+    Dog.all.each do |dog|
+      if dog.owner == self
+        dog_array << dog
       end
     end
     dog_array
