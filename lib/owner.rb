@@ -49,5 +49,9 @@ class Owner
     dog_array
   end
 
+  def buy_cat(name)
+
+  end
+
 
 end
