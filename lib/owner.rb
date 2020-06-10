@@ -36,6 +36,7 @@ class Owner
         cat_array << cat
       end
     end
+    cat_array
   end
 
 
